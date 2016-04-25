@@ -1,5 +1,5 @@
 /**
- * @brief Complete sketch example
+ * @brief Complete sketch example with tabs
  * @author CREA Robotica Educativa
  * @license GPLv3
  *
@@ -12,19 +12,6 @@
 // global variables 
 int time_waiting = 500;
 String msg = "Hello world.";
-
-// functions
-
-/**
- * @brief Auxiliar function to print a string.
- * @para s: The input string
- * @return: Nothing
- */
-void print_str(String s)
-{
-    // show the message in the serial monitor
-    Serial.println(s);
-}
 
 /**
  * @brief setup routine
